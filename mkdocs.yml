@@ -1,6 +1,10 @@
 site_name: Jos&eacute; M Vidal
 theme:
   name: material
+  features:
+    - content.code.copy
+
+repo_url: https://github.com/josemvidal/josemvidal.github.io
 plugins:
   - blog
 
@@ -8,3 +12,12 @@ nav:
   - Home: index.md
   - Blog:
     - blog/index.md 
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
