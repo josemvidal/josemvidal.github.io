@@ -5,7 +5,7 @@ name = "pypi"
 
 [packages]
 mkdocs = "*"
-mkdocs-material = "*"
+mkdocs-material = ">=9.2.0b2"
 
 [dev-packages]
 

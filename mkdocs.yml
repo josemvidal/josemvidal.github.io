@@ -1,3 +1,10 @@
 site_name: Jose M Vidal
 theme:
   name: material
+plugins:
+  - blog
+
+nav:
+  - Home: index.md
+  - Blog:
+    - blog/index.md 
