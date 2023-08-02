@@ -33,6 +33,11 @@ To get the GitHub workflow to use pipenv, I change the workflow run statement to
       - run: pipenv run mkdocs gh-deploy --force
 ```
 
+## Conclusion
+
+It works!
+
+Because the the GitHub Actions update the blog automatically on commit, this means that I can update this website from github.com itself. Cool!
 
 
 
