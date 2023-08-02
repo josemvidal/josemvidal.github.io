@@ -6,8 +6,9 @@ theme:
 
 repo_url: https://github.com/josemvidal/josemvidal.github.io
 plugins:
-  - blog
-
+  - search
+  - blog:
+      archive: false
 nav:
   - Home: index.md
   - Blog:
